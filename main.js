@@ -32,12 +32,16 @@
 
 // բ) այն սիմետրիկ հաջորդականություն է,  
 
-// let arr = [5,9,7,1,4]
-// arr.sort((a, b) => a - b)
-// for(let i = 0; i < arr.length; i++){
-//     if(arr)
-// }
-
+let arr = [8,4,8,4,8];
+let arr1 = [];
+for(let i = arr.length-1; i >= 0; i--){
+ arr1.push(arr[i])
+}   
+if(arr.toString() == arr1.toString()){
+    console.log("yes")
+}else{
+    console.log("no")
+}
 // 3. . Գտնել տրված իրական թվերի հաջորդականության փոքրագույն անդամը և տեղերով փոխել վերջին տարրի հետ:
 
 // let arr = [5,3,4,2,1]
