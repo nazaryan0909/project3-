@@ -32,16 +32,17 @@
 
 // բ) այն սիմետրիկ հաջորդականություն է,  
 
-let arr = [8,4,8,4,8];
-let arr1 = [];
-for(let i = arr.length-1; i >= 0; i--){
- arr1.push(arr[i])
-}   
-if(arr.toString() == arr1.toString()){
-    console.log("yes")
-}else{
-    console.log("no")
-}
+// let arr = [8,4,8,4,8];
+// let arr1 = [];
+// for(let i = arr.length-1; i >= 0; i--){
+//  arr1.push(arr[i])
+// }   
+// if(arr.toString() == arr1.toString()){
+//     console.log("yes")
+// }else{
+//     console.log("no")
+// }
+
 // 3. . Գտնել տրված իրական թվերի հաջորդականության փոքրագույն անդամը և տեղերով փոխել վերջին տարրի հետ:
 
 // let arr = [5,3,4,2,1]
@@ -70,3 +71,28 @@ if(arr.toString() == arr1.toString()){
 // }else {
 //     console.log("no")
 // }
+
+//  գ) այն թվաբանական պրոգրեսիա է, 
+// function tvabanakan(arr){
+//     let d = arr[1] - arr[0]
+//     for(let i = 1; i < arr.length; i++){
+//         if(arr[i] - arr[i - 1] !== d){
+//             return "no"
+//         }
+        
+//     }
+//     return "yes"
+// }
+// console.log(tvabanakan([4,6,8,12]))
+//  դ) այն երկրաչափական պրոգրեսիա է:  
+
+// function erkr(arr){
+//     let q = arr[1] / arr[0]
+//     for(let i = 1; i < arr.length; i++){
+//         if(arr[i] / arr[i - 1] !== q){
+//             return "no"
+//         }
+//     }
+//     return "yes"
+// }
+// console.log(erkr([2,3,4,8,16]))
